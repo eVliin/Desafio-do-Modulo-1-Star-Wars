@@ -1,5 +1,51 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("assets/star uó topo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+header figure{
+    width: fit-content;
+    height: fit-content;
+}
+header figure div{
+    display: flex;
+    justify-content: center;
+    
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+.star{
+    position: absolute;
+    left: 16.5vw;
+    top: 24vw;
+    height: 6.2vw;
+    width: 24.802vw;
+}
+.kyloRen {
+    left: 50%;
+    margin-top: -5px;
+    margin-left: -42.24vw;
+    position: absolute;
+    width: 72.469vw;
+    z-index: 2;
+}
+.wars{
+    position: relative;
+    left: 27.5vw;
+    top: 24vw;
+    height: 6.5vw;
+    width: 27.094vw;
 }
