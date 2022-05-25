@@ -2,50 +2,75 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-body {}
-
 header {
-    height: 100vh;
-    width: 100%;
+    height: 43.5vw;
+    width: 100vw;
     background-image: url("assets/star uó topo.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
 }
-header figure{
+
+header figure {
     width: fit-content;
     height: fit-content;
 }
-header figure div{
+
+header figure div {
     display: flex;
     justify-content: center;
-    
+
     z-index: 1;
     width: 100vw;
     height: 100vh;
 }
-.star{
+
+.star {
     position: absolute;
-    left: 16.5vw;
-    top: 24vw;
-    height: 6.2vw;
-    width: 24.802vw;
+    left: 19vw;
+    top: 23.65vw;
+    height: 6.1vw;
+    width: 23.8vw;
 }
+
 .kyloRen {
     left: 50%;
-    margin-top: -5px;
-    margin-left: -42.24vw;
+    margin-left: -40.05vw;
     position: absolute;
-    width: 72.469vw;
-    z-index: 2;
+    width: 70.5vw;
+    z-index: 1;
 }
-.wars{
+
+.wars {
     position: relative;
-    left: 27.5vw;
-    top: 24vw;
-    height: 6.5vw;
-    width: 27.094vw;
+    left: 27.8vw;
+    top: 23.6vw;
+    height: 6.1vw;
+    width: 26vw;
+}
+
+.sec1{
+    background-image: url("assets/sta uo robot.png");
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 100%;
+    z-index: 1;
+}
+.stormRed{
+    position: relative;
+    z-index: 3;
+    top: -2.95vw;
+    right: -14.5vw;
 }
