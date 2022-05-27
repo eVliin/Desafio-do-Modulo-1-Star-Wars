@@ -4,13 +4,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 0px;
-}
-.wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    height: 0px;
 }
 
 header {
@@ -31,7 +28,6 @@ header figure {
 header figure div {
     display: flex;
     justify-content: center;
-
     z-index: 1;
     width: 100vw;
     height: 100vh;
@@ -60,15 +56,19 @@ header figure div {
     height: 6.1vw;
     width: 26vw;
 }
-
-.sec1{
+header section{
+    position: absolute;
+    color: white;
+}
+.sec1 {
     background-image: url("assets/sta uo robot.png");
     background-repeat: no-repeat;
     height: 1080px;
     width: 100%;
     z-index: 1;
 }
-.stormRed{
+
+.stormRed {
     position: relative;
     z-index: 3;
     top: -2.95vw;
