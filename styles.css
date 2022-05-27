@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 ::-webkit-scrollbar {
@@ -58,7 +63,27 @@ header figure div {
 }
 header section{
     position: absolute;
-    color: white;
+    top: 33.5vw;
+    right: 225px;
+    color: black;
+    font-size: 30px;
+    z-index: 3;
+}
+header .crieLe .br{
+    display: block;
+    border-bottom: solid black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.stg {
+    font-weight: 700;
+}
+.num  {
+    font-size: 19px;
+}
+header section button{
+    width: 19px;
+    height: 19px;
 }
 .sec1 {
     background-image: url("assets/sta uo robot.png");
