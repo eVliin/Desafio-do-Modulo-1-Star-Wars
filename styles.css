@@ -61,41 +61,137 @@ header figure div {
     height: 6.1vw;
     width: 26vw;
 }
-header section{
+
+header section {
     position: absolute;
-    top: 33.5vw;
-    right: 225px;
+    top: 33.8vw;
+    right: 11.719vw;
     color: black;
-    font-size: 30px;
+    font-size: 1.6vw;
     z-index: 3;
 }
-header .crieLe .br{
-    display: block;
+
+header .crieLe .br {
     border-bottom: solid black;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    padding-bottom: 1.302vw;
+    margin-bottom: 1.302vw;
 }
+
+.br {
+    display: block;
+}
+
 .stg {
     font-weight: 700;
 }
-.num  {
-    font-size: 19px;
+
+.num {
+    font-size: 1vw;
 }
-header section button{
-    width: 19px;
-    height: 19px;
+
+.Nm {
+    display: flex;
+    justify-content: space-between;
+    width: 6.4vw;
+
 }
+
+.bt1 {
+    background-color: #A9BDC1;
+    cursor: pointer;
+    color: #000000;
+    font-weight: 900;
+    font-size: 0.6vw;
+    padding: 0px 0.26vw;
+    text-decoration: none;
+}
+
+.bt1:hover {
+    background-color: #7c898b;
+}
+
+.bt1:active {
+    position: relative;
+    top: 0.052vw;
+}
+
 .sec1 {
     background-image: url("assets/sta uo robot.png");
     background-repeat: no-repeat;
-    height: 1080px;
+    background-size: contain;
+    height: 76.146vw;
     width: 100%;
     z-index: 1;
 }
 
 .stormRed {
+    display: flex;
+    justify-content: center;
+    height: 30.417vw;
+    width: 20.729vw;
     position: relative;
     z-index: 3;
     top: -2.95vw;
     right: -14.5vw;
+    background-image: url("assets/strom trupe red.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.stormRed div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 29.5vw;
+    width: 17.5vw;
+}
+
+.stormRed .br {
+    font-weight: 600;
+}
+
+.stormRed h2 {
+    font-size: 2.6vw;
+    font-weight: 600;
+}
+
+.stormRed p .br,.stormRed p {
+    font-size: 1.042vw;
+    font-weight: 10;
+}
+
+.stormRed button {
+    background-color: transparent;
+    color: white;
+    border: white solid 2px;
+    border-radius: 5px;
+    font-size: 1.042vw;
+    font-weight: 300;
+    padding: 0.521vw 2.344vw;
+}
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: absolute;
+    top: 57.813vw;
+    right: 7.292vw;
+    width: 60vw;
+    height: 12.969vw;
+}
+.sobre article{
+    text-align: end;
+}
+.stP, .sobre .br{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.stBtl{
+    position: relative;
+    bottom: -0.1vw;
+    left: 0.1vw;
+    width: 20.729vw;
+    height: 12.448vw;
 }
