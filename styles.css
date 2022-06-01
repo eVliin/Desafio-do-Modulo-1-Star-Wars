@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
 
 * {
     margin: 0px;
@@ -152,13 +154,15 @@ header .crieLe .br {
     width: 17.5vw;
 }
 
-.stormRed h2, .stormRed h2 .br {
+.stormRed h2,
+.stormRed h2 .br {
     text-align: center;
     font-size: 2.6vw;
     font-weight: 600;
 }
 
-.stormRed .comece p .br,.stormRed .comece p {
+.stormRed .comece p .br,
+.stormRed .comece p {
     font-size: 1.042vw;
     font-weight: 5;
 }
@@ -172,7 +176,8 @@ header .crieLe .br {
     font-weight: 300;
     padding: 0.521vw 2.344vw;
 }
-.txtUpd{
+
+.txtUpd {
     font-size: 0.05vw;
     font-weight: 10;
     position: absolute;
@@ -180,7 +185,8 @@ header .crieLe .br {
     left: 13.021vw;
     color: #ffffff8a;
 }
-.sobre{
+
+.sobre {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -190,34 +196,68 @@ header .crieLe .br {
     width: 60vw;
     height: 12.969vw;
 }
-.sobre article{
+
+.sobre article {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: end;
     padding-right: 1.042vw;
 }
-.sobre h2{
+
+.sobre h2 {
     font-size: 1.6vw;
     font-weight: 700;
     padding-bottom: 1vw;
 }
-.stP, .sobre .br{
+
+.stP,
+.sobre .br {
     font-size: 1vw;
     font-weight: 500;
 }
-.bar{
+
+.bar {
     height: 0.156vw;
     width: 9.01vw;
     background-color: #000000;
 }
-.stP{
+
+.stP {
     padding-top: 1vw;
 }
-.stBtl{
+
+.stBtl {
     position: relative;
     bottom: -0.1vw;
     left: 0.1vw;
     width: 20.729vw;
     height: 12.448vw;
+}
+.sec1_5 {
+    display: flex;
+    flex-direction: row;
+}
+.estJogo{
+    text-align: end;
+}
+.estJogo, .estJogo span{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.estJogo span span {
+    font-weight: 400;
+    font-family: 'Bowlby One', cursive;
+}
+.sec2{
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 2345px;
+}
+.atrb{
+    color: #ffffff;
+    font-family: 'Assistant', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
 }
