@@ -102,8 +102,10 @@ header .crieLe .br {
     color: #000000;
     font-weight: 900;
     font-size: 0.6vw;
-    padding: 0px 0.26vw;
+    padding: 0.1px 0.2vw;
     text-decoration: none;
+    border: none;
+    margin-right: 2px;
 }
 
 .bt1:hover {
