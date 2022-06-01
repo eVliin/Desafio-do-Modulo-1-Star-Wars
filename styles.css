@@ -241,26 +241,35 @@ header .crieLe .br {
     align-items: center;
 }
 .sec1_5  div{
-    padding-top: ;
+    margin-top: 2.5vw;
+    padding-top: 1.406vw;
     position: relative;
     left: 3.542vw;
     display: flex;
     flex-direction: row;
     width: 78.229vw;
     height: auto;
-    border-top: solid 5px rgba(0, 0, 0, 0.5);
+    border-top: solid 0.26vw rgba(0, 0, 0, 0.5);
 }
 .estJogo{
     text-align: end;
 }
 .estJogo, .estJogo span{
-    font-size: 70px;
+    font-size: 3.646vw;
     font-weight: 600;
 }
 
 .estJogo span span {
     font-weight: 400;
     font-family: 'Bowlby One', cursive;
+}
+.maul{
+    width: 44.063vw;
+    height: 43.906vw;
+}
+.rey{
+    width: 20.729vw;
+    height: 39.583vw;
 }
 .sec2{
     background-color: #2D2D2D;
