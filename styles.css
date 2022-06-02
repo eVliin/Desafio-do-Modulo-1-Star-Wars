@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0vw;
+    padding: 0vw;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
@@ -13,10 +13,13 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+    width: 0vw;
+    height: 0vw;
 }
-
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 header {
     height: 43.5vw;
     width: 100vw;
@@ -104,10 +107,10 @@ header .crieLe .br {
     color: #000000;
     font-weight: 900;
     font-size: 0.6vw;
-    padding: 0.1px 0.2vw;
+    padding: 0.005vw 0.2vw;
     text-decoration: none;
     border: none;
-    margin-right: 2px;
+    margin-right: 0.104vw;
 }
 
 .bt1:hover {
@@ -170,8 +173,8 @@ header .crieLe .br {
 .stormRed button {
     background-color: transparent;
     color: white;
-    border: white solid 2px;
-    border-radius: 5px;
+    border: white solid 0.104vw;
+    border-radius: 0.26vw;
     font-size: 1.042vw;
     font-weight: 300;
     padding: 0.521vw 2.344vw;
@@ -234,13 +237,15 @@ header .crieLe .br {
     width: 20.729vw;
     height: 12.448vw;
 }
-.sec1_5{
+
+.sec1_5 {
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
 }
-.sec1_5  div{
+
+.sec1_5 div {
     margin-top: 2.5vw;
     padding-top: 1.406vw;
     position: relative;
@@ -251,34 +256,135 @@ header .crieLe .br {
     height: auto;
     border-top: solid 0.26vw rgba(0, 0, 0, 0.5);
 }
-.estJogo{
+
+.maul {
+    position: relative;
+    top: -0.208vw;
+    width: 44.063vw;
+    height: 43.906vw;
+    z-index: 2;
+}
+.sec1_5 article{
+    position: relative;
+    top: 3.776vw;
+    right: 8.073vw;
+    text-align: end;
+    z-index: 3;
+}
+.estJogo {
+    font-size: 3.646vw;
     text-align: end;
 }
-.estJogo, .estJogo span{
-    font-size: 3.646vw;
+.estJogo .br span{
+    font-size: 3.229vw;
+}
+.estJogo,
+.estJogo .br {
+    line-height: 3.75vw;
     font-weight: 600;
 }
 
-.estJogo span span {
+.estJogo .br span {
     font-weight: 400;
     font-family: 'Bowlby One', cursive;
 }
-.maul{
-    width: 44.063vw;
-    height: 43.906vw;
+.estUl{
+    list-style: none;
+    position: absolute;
+    top: 7.73vw;
+    right: 0vw;
+    height: 22.59vw;
+    width: 31.25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 1.51vw;
 }
-.rey{
+.estUl li{
+    padding-right: 0.833vw;
+    width: 26.823vw;
+}
+.estUl li:hover{
+    cursor: pointer;
+    background-color: #D74430;
+    color: white;
+}
+.rey {
+    position: relative;
+    top: 4.74vw;
+    right: 7.1vw;
     width: 20.729vw;
     height: 39.583vw;
+    z-index: 2;
 }
-.sec2{
+
+.sec2 {
+    position: relative;
+    top: -1.198vw;
     background-color: #2D2D2D;
     width: 100%;
-    height: 2345px;
+    height: 122.135vw;
+    z-index: 1;
 }
-.atrb{
+.dv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2022px;
+}
+.atrb {
     color: #ffffff;
     font-family: 'Assistant', sans-serif;
-    font-size: 50px;
+    font-size: 2.604vw;
     font-weight: 800;
+    position: relative;
+    right: 530px;
+}
+.sec2 .fg1{
+    height: 26.146vw;
+    width: 85.417vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.seTrp{
+    position: relative;
+    width: 21.354vw;
+    height: 13.073vw;
+    background-image: url("assets/Security_stormtrooper_HUC2-FF-003301.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.seTrp img{
+    position: absolute;
+    bottom: 0vw;
+    width: 22.396vw;
+}
+.imgB{
+    height: 51.563vw;
+    width: 42.917vw;
+}
+.imgFg{
+    width: 21.354vw;
+}
+.hrq{
+    height: 51.563vw;
+}
+.fg2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: end;
+    width: 85.417vw;
+    height: 55vw;
+}
+.cj{
+    font-weight: 400;
+    font-family: 'Bowlby One', cursive;
+    color: white;
 }
