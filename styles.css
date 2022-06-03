@@ -12,7 +12,7 @@
     font-weight: 400;
 }
 
-::-webkit-scrollbar {
+:-webkit-scrollbar {
     width: 0vw;
     height: 0vw;
 }
@@ -422,6 +422,113 @@ header .crieLe .br {
     font-family: 'Assistant', sans-serif;
     color: white;
 }
-.sec3{
-    width: 578px;
+
+.sec3 {
+    position: relative;
+    top: -1.198vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 22.604vw;
+    z-index: 1;
+}
+
+.sec3 img {
+    margin-bottom: 2.083vw;
+    width: 27.969vw;
+    z-index: 3;
+}
+
+.cxs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    width: 55.625vw;
+    margin-left: 0.833vw;
+}
+
+.d1,
+.d2,
+.d3 {
+    position: relative;
+    display: flex;
+    width: 13.542vw;
+    height: 15.469vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.d1 div,
+.d2 div,
+.d3 div {
+    position: absolute;
+    bottom: 0px;
+    width: 5.208vw;
+    border-bottom: solid 0.26vw #000000;
+    transition: ease-out 0.5s;
+}
+
+.d1:hover div,
+.d2:hover div,
+.d3:hover div {
+    border-bottom: solid 0.26vw #D74430;
+}
+
+.cxs h3 {
+    font-size: 2.604vw;
+    font-weight: 350;
+}
+
+.cxs button {
+    width: 13.542vw;
+    height: 3.646vw;
+    background-color: #000000;
+    box-shadow: inset 0 0 0 0 #D74430;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 200;
+    border: none;
+    transition: ease-in-out 1s;
+}
+
+.cxs p,
+.cxs span {
+    font-size: 1.042vw;
+    font-weight: 300;
+}
+
+.d1:hover h3,
+.d2:hover h3,
+.d3:hover h3 {
+    font-weight: 700;
+}
+
+.d1:hover button,
+.d2:hover button,
+.d3:hover button {
+    box-shadow: inset -13.542vw 0 0 0 #D74430;
+}
+
+footer {
+    height: 53.333vw;
+}
+footer section{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.drtVd{
+    width: 39.375vw;
+}
+.cxLr{
+    background-color: #FF5A56;
+    width: 63.958vw;
+    height: 46.042vw;
 }
