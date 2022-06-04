@@ -18,13 +18,13 @@
 }
 
 body {
-    width: 100vw;
+    width: auto;
     overflow-x: hidden;
 }
 
 header {
     height: 43.5vw;
-    width: 100vw;
+    width: auto;
     background-image: url("assets/star uó topo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ header .crieLe .br {
     cursor: pointer;
     color: #000000;
     font-weight: 900;
-    font-size: 0.6vw;
+    font-size: 0.6em;
     padding: 0.005vw 0.2vw;
     text-decoration: none;
     border: none;
@@ -129,7 +129,7 @@ header .crieLe .br {
     background-repeat: no-repeat;
     background-size: contain;
     height: 76.146vw;
-    width: 100%;
+    width: auto;
     z-index: 1;
 }
 
@@ -260,6 +260,7 @@ header .crieLe .br {
 }
 
 .maul {
+
     position: relative;
     top: -0.208vw;
     width: 44.063vw;
@@ -333,9 +334,10 @@ header .crieLe .br {
     position: relative;
     top: -1.198vw;
     background-color: #2D2D2D;
-    width: 100%;
+    width: auto;
     height: 122.135vw;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 .dv {
@@ -387,7 +389,9 @@ header .crieLe .br {
     width: 42.917vw;
 }
 
-.imgFg {
+.imgFg,
+.imgFg1,
+.imgFg2 {
     width: 21.354vw;
 }
 
@@ -490,7 +494,7 @@ header .crieLe .br {
     background-color: #000000;
     box-shadow: inset 0 0 0 0 #D74430;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1.563vw;
     font-weight: 200;
     border: none;
     transition: ease-in-out 1s;
@@ -515,20 +519,415 @@ header .crieLe .br {
 }
 
 footer {
+    position: relative;
     height: 53.333vw;
-}
-footer section{
     width: 100%;
     height: inherit;
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-.drtVd{
-    width: 39.375vw;
+
+footer section {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
-.cxLr{
+
+.drtVd {
+    position: absolute;
+    right: 7.2vw;
+    top: -6.7vw;
+    width: 39.375vw;
+    z-index: 3;
+}
+
+.cxLr {
+    position: relative;
+    z-index: 1;
     background-color: #FF5A56;
     width: 63.958vw;
     height: 46.042vw;
+}
+
+.objs {
+    position: absolute;
+    bottom: 3vw;
+    left: 14.583vw;
+    width: 27.917vw;
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cxLr h2 {
+    color: #ffffff;
+    font-size: 2.525vw;
+    font-weight: 800;
+}
+
+.cxLr figure {
+    position: relative;
+    padding-bottom: 2.525vw;
+    width: 27.917vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.26vw solid #D74430;
+}
+
+.strW {
+    position: relative;
+    width: 13.438vw;
+    top: 1.042vw;
+}
+
+.cxLr p,
+.cxLr .br {
+    color: #ffffffbc;
+    font-weight: 100;
+    font-size: 1.042vw;
+    width: 27.917vw;
+}
+
+.avs {
+    position: absolute;
+    bottom: 2.292vw;
+    right: 9.688vw;
+    width: 16vw;
+    font-size: 0.1vw;
+    color: #000000;
+    overflow: hide;
+}
+
+@media screen and (orientation:portrait) {
+    .kyloRen {
+        margin-left: -41vw;
+    }
+
+    header section {
+        width: 15vw;
+        right: 9.867vw;
+
+        font-size: 2.4vw;
+    }
+
+    .sec1 {
+        background-size: 74.933vw;
+        height: 236vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80vw;
+
+    }
+
+    .sec1_1 {
+        align-items: flex-end;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 14.667vw;
+    }
+
+    .stormRed {
+        position: relative;
+        top: 0;
+        right: 0;
+        height: 87.467vw;
+        width: 59.2vw;
+    }
+
+    .sobre {
+        position: relative;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 80.533vw;
+        height: 83.043vw;
+        margin-top: 4.267vw;
+    }
+
+    .stP,
+    .stP .br {
+        display: inline;
+        font-size: 3.733vw;
+        width: 80.533vw;
+    }
+
+    .sobre h2 {
+        font-size: 4vw;
+    }
+
+    .bar {
+        width: 38.656vw;
+        height: 0.8vw;
+    }
+
+    .sobre img {
+        width: 59.733vw;
+        height: 35.2vw;
+        margin-bottom: 4.267vw;
+    }
+
+    .sec1_5 {
+        position: relative;
+        top: 13.333vw;
+    }
+
+    .sec1_5 div {
+        width: 80.533vw;
+        height: 46.133vw;
+        left: 0;
+        align-self: center;
+        margin-top: 5.333vw;
+        border-top: solid 1.333vw rgba(0, 0, 0, 0.5);
+        padding-top: 7.467vw;
+    }
+
+    .maul {
+        top: 0;
+        right: 5.333vw;
+    }
+
+    .sec1_5 article {
+        top: 0;
+    }
+
+    .rey {
+        top: 0;
+        width: 24.267vw;
+        height: 46.133vw;
+    }
+
+    .estJogo {
+        font-size: 4vw;
+    }
+
+    .estJogo .br span {
+        font-size: 3.733vw;
+    }
+
+    .estUl {
+        top: 9.333vw;
+        font-size: 2vw;
+    }
+
+    .estUl li {
+        min-width: 38.933vw;
+        height: 3.2vw;
+        font-weight: 500;
+    }
+
+    .sec2 {
+        top: 0;
+        height: 366.667vw;
+    }
+
+    .dv {
+        top: 70px;
+        height: 329.333vw;
+    }
+
+    .atrb {
+        position: relative;
+        top: -20px;
+        right: 0;
+        font-size: 5vw;
+    }
+
+    .sec2 .fg1 {
+        position: relative;
+        width: 80.533vw;
+        height: 324.533vw;
+        align-items: center;
+    }
+
+    .seTrp img {
+        width: 83.733vw;
+    }
+
+    .imgB,
+    .imgFg,
+    .imgFg1,
+    .imgFg2,
+    .seTrp {
+        width: 80.533vw;
+        height: 49.067vw;
+    }
+
+    .imgFg1 {
+        order: 4;
+    }
+
+    .imgFg2 {
+        order: 5;
+    }
+
+    .fg2 {
+        align-items: center;
+        height: 85vw;
+    }
+
+    .fg2 figcaption,
+    .fg2 figcaption .br {
+        color: #ffffffbb;
+        display: inline;
+        font-size: 2.267vw;
+    }
+
+    .fg2 figcaption {
+        position: relative;
+        right: -9vw;
+        width: 66.667vw;
+        height: 9.067vw;
+    }
+
+    .fg2 img {
+        height: 60vw;
+    }
+
+    .cj {
+        top: 24vw;
+        right: -20vw;
+        font-size: 4.533vw;
+    }
+
+    .sec3 {
+        height: 129.6vw;
+        width: 60.533vw;
+    }
+
+    .sec3 img {
+        width: 100.8vw;
+        z-index: 5;
+    }
+
+    .cxs {
+        position: relative;
+        right: 9.867vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .d1,
+    .d2,
+    .d3 {
+        width: 38.933vw;
+        height: 33.333vw;
+    }
+
+    .d1 div,
+    .d2 div,
+    .d3 div {
+        width: 16vw;
+        border-bottom: solid 1.067vw #000000;
+    }
+
+    .d1:hover div,
+    .d2:hover div,
+    .d3:hover div {
+        border-bottom: solid 1.067vw #D74430;
+    }
+
+    .cxs h3 {
+        font-size: 6.667vw;
+    }
+
+    .cxs button {
+        width: 38.933vw;
+        height: 10.933vw;
+        font-size: 4vw;
+    }
+
+    .cxs p,
+    .cxs span {
+        font-size: 3.733vw;
+        padding: 0.8vw;
+    }
+
+    .d1:hover button,
+    .d2:hover button,
+    .d3:hover button {
+        box-shadow: inset -38.933vw 0 0 0 #D74430;
+    }
+
+    footer {
+        height: 255.467vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cxLr {
+        width: 100vw;
+        height: 180.8vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cxLr h2 {
+        font-size: 13.333vw;
+    }
+
+    .objs {
+        position: relative;
+        top: 12vw;
+        left: 0;
+        width: 78.133vw;
+        height: 118.133vw;
+    }
+
+    .cxLr p,
+    .cxLr .br {
+        width: 80.533vw;
+        font-size: 3.733vw;
+    }
+
+    .pol .br {
+        display: inline;
+    }
+
+    .cxLr figure {
+        padding-top: 4.533vw;
+        padding-bottom: 2.667vw;
+        margin-bottom: 30px;
+        width: 80.533vw;
+        border-bottom: 1.467vw solid #D74430;
+    }
+
+    .strW {
+        align-self: center;
+        width: 44.4vw;
+        height: 21.693vw;
+        margin-bottom: 4.267vw;
+    }
+
+    .drtVd {
+        position: relative;
+        top: -19.733vw;
+        right: 0;
+        width: 80.533vw;
+    }
+
+    .cxLr figure img {
+        width: 38.933vw;
+    }
+
+    .avs {
+        width: 80.533vw;
+        height: 9.867vw;
+        font-size: 2.133vw;
+        bottom: 30px;
+        position: absolute;
+    }
 }
