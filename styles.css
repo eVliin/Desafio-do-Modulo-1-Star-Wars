@@ -378,12 +378,73 @@ header .crieLe .br {
     justify-content: center;
 }
 
-.seTrp img {
+.rd {
     position: absolute;
     bottom: 0vw;
+    height: 14.01vw;
     width: 22.396vw;
+    background-color: #d74330a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.rd1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 21.354vw;
+    height: 13.073vw;
+    color: rgba(255, 255, 255, 0.757);
+}
+.rd1 article{
+    position: absolute;
+    top: 1.944vw;
+    right: 3.03vw;
+    font-weight: 100;
+    font-size: 0.758vw;
+    width: 16.818vw;
+    height: 5.808vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rd1 h3{
+    color: #ffffff;
+    font-size: 1.263vw;
+    font-weight: 750;
+    width: 6.212vw;
+}
+.rd1 div{
+    width: 3.03vw;
+    height: 3.4vw;
+}
+.rd1 button{
+    width: 8.788vw;
+    height: 2.525vw;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: white solid;
+    border-radius: 0.1vw;
+    font-size: 1.042vw;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+}
+.rd1 div:first-of-type{
+    position: absolute;
+    top: 0.505vw;
+    border-top: #ffffff solid;
+    border-left: #ffffff solid;
+}
+.rd1 div:last-of-type{
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+    border-bottom: #ffffff solid;
+    border-right: #ffffff solid;
+}
 .imgB {
     height: 51.563vw;
     width: 42.917vw;
@@ -436,6 +497,7 @@ header .crieLe .br {
     align-items: flex-end;
     height: 22.604vw;
     z-index: 1;
+    margin-bottom: 5.051vw;
 }
 
 .sec3 img {
@@ -598,7 +660,7 @@ footer section {
     bottom: 2.292vw;
     right: 9.688vw;
     width: 16vw;
-    font-size: 0.1vw;
+    font-size: 0.8vw;
     color: #000000;
     overflow: hide;
 }
@@ -611,8 +673,28 @@ footer section {
     header section {
         width: 15vw;
         right: 9.867vw;
-
         font-size: 2.4vw;
+    }
+
+    .num {
+        font-size: 2vw;
+    }
+
+    .Nm {
+        width: 15vw;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .Nm div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 10vw;
+    }
+
+    .bt1 {
+        padding: 0vw 0.8vw;
+        font-size: 3vw;
     }
 
     .sec1 {
@@ -639,6 +721,44 @@ footer section {
         right: 0;
         height: 87.467vw;
         width: 59.2vw;
+        background-size: 69.333vw;
+    }
+
+    .stormRed div {
+        width: 20vw;
+        height: 106.667vw;
+    }
+
+    .stormRed h2,
+    .stormRed h2 .br {
+        font-size: 7.467vw;
+    }
+
+    .stormRed .comece p .br,
+    .stormRed .comece p {
+        font-size: 3.5vw;
+    }
+
+    .comece p {
+        width: 42.933vw;
+    }
+
+    .comece p .br {
+        display: inline;
+    }
+
+    .stormRed button {
+        width: 30.4vw;
+        height: 7.467vw;
+        font-size: 3.733vw;
+        border: white solid 0.6vw;
+        border-radius: 1.333vw;
+    }
+
+    .txtUpd {
+        position: relative;
+        left: 0;
+        font-size: 2.133vw;
     }
 
     .sobre {
@@ -686,7 +806,7 @@ footer section {
         left: 0;
         align-self: center;
         margin-top: 5.333vw;
-        border-top: solid 1.333vw rgba(0, 0, 0, 0.5);
+        border-top: solid 1.333vw rgba(0, 0, 0, 0.586);
         padding-top: 7.467vw;
     }
 
@@ -765,6 +885,42 @@ footer section {
         order: 4;
     }
 
+    .rd{
+        width: 83.733vw;
+        height: 52.533vw;
+    }
+    .rd1{
+        width: 79.733vw;
+        height: 46.133vw;
+    }
+    .rd1 article{
+        top: 4.267vw;
+        right: 7.467vw;
+        width: 64.8vw;
+        height: 30vw;
+    }
+    .rd1 h3{
+        font-size: 4.533vw;
+        width: 22.4vw;
+    }
+    .rd1 p{
+        width: 62.933vw;
+        font-weight: 100;
+        font-size: 3.867vw;
+        color: #ffffffbe;
+    }
+    .rd1 div{
+        height: 9.717vw;
+        width: 9.723vw;
+    }
+    .rd1 button{
+        width: 33.867vw;
+        height: 9.6vw;
+        font-size: 5.333vw;
+    }
+    .rd1 span{
+        display: none;
+    }
     .imgFg2 {
         order: 5;
     }
@@ -927,7 +1083,7 @@ footer section {
         width: 80.533vw;
         height: 9.867vw;
         font-size: 2.133vw;
-        bottom: 30px;
+        bottom: 8vw;
         position: absolute;
     }
 }
